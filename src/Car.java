@@ -32,6 +32,7 @@ public class Car extends Showroom implements Utility{
         carFuelType = sc.nextLine();
         System.out.println("CAR PRICE: ");
         carPrice = sc.nextInt();
+        sc.nextLine();
         System.out.println("CAR TYPE: ");
         carType = sc.nextLine();
         System.out.println("CAR TRANSITION: ");
